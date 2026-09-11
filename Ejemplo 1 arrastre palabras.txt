@@ -1,0 +1,1603 @@
+<!-- ====================================================== --><!-- EJERCICIO 2 · PARTE 1                                  --><!-- ESTRUCTURA, INSTRUCCIONES Y ZONAS DE CLASIFICACIÓN     --><!-- ====================================================== -->
+<div id="ejercicioVavClasificacion"
+  style="width: 100%; max-width: 1180px; margin: 48px auto; padding: 14px; box-sizing: border-box; font-family: Montserrat, Arial, sans-serif;">
+  <!-- CONTENEDOR PRINCIPAL -->
+  <div
+    style="position: relative; overflow: hidden; background: linear-gradient(145deg,#f8fbff 0%,#eef7fb 52%,#f4fbf9 100%); border: 1px solid #d8e6f1; border-radius: 32px; padding: 42px; box-sizing: border-box; box-shadow: 0 28px 60px rgba(8,47,73,.14), 0 10px 24px rgba(3,105,161,.08), inset 0 1px 0 rgba(255,255,255,.95);">
+    <!-- ELEMENTOS DECORATIVOS DE FONDO -->
+    <div
+      style="position: absolute; top: -90px; right: -80px; width: 260px; height: 260px; border-radius: 50%; background: radial-gradient(circle,rgba(8,167,153,.18) 0%,rgba(8,167,153,0) 70%); pointer-events: none;"
+      aria-hidden="true"> </div>
+    <div
+      style="position: absolute; bottom: -120px; left: -100px; width: 300px; height: 300px; border-radius: 50%; background: radial-gradient(circle,rgba(9,113,206,.16) 0%,rgba(9,113,206,0) 72%); pointer-events: none;"
+      aria-hidden="true"> </div>
+    <!-- BANNER -->
+    <div
+      style="position: relative; z-index: 2; overflow: hidden; min-height: 154px; display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 30px 34px; box-sizing: border-box; background: linear-gradient(135deg,#082f49 0%,#0369a1 50%,#08a799 100%); border: 1px solid rgba(255,255,255,.18); border-radius: 26px; box-shadow: 0 20px 38px rgba(8,47,73,.28), inset 0 1px 0 rgba(255,255,255,.22);">
+      <!-- FIGURA DECORATIVA -->
+      <div
+        style="position: absolute; right: -34px; top: 50%; transform: translateY(-50%) rotate(45deg); width: 150px; height: 150px; border-radius: 24px; background: rgba(255,255,255,.10); box-shadow: inset 0 0 0 1px rgba(255,255,255,.12);"
+        aria-hidden="true"> </div>
+      <div
+        style="position: absolute; right: 78px; bottom: -64px; width: 142px; height: 142px; border-radius: 50%; background: rgba(255,255,255,.07);"
+        aria-hidden="true"> </div>
+      <!-- TEXTO DEL BANNER -->
+      <div style="position: relative; z-index: 2; flex: 1; min-width: 240px;">
+        <div
+          style="display: inline-block; margin-bottom: 12px; padding: 7px 14px; background: rgba(255,255,255,.16); border: 1px solid rgba(255,255,255,.24); border-radius: 999px; color: #ffffff; font-size: 15px; font-weight: bold; letter-spacing: .4px; box-shadow: inset 0 1px 0 rgba(255,255,255,.16);">
+          EJERCICIO 2</div>
+        <h2
+          style="margin: 0; color: #ffffff; font-size: clamp(27px,4vw,40px); line-height: 1.18; font-weight: 800; letter-spacing: -.5px;">
+          Laboratorio de identificación</h2>
+        <p
+          style="margin: 10px 0 0; color: #dff8f4; font-size: 18px; line-height: 1.55; font-weight: 500;">
+          ¿La letra <span dir="rtl"
+            style="font-family: 'Times New Roman',serif; font-size: 26px; font-weight: bold;">ו</span>
+          funciona como consonante o como vocal?</p>
+      </div>
+      <!-- EMBLEMA -->
+      <div
+        style="position: relative; z-index: 2; flex: 0 0 auto; width: 92px; height: 92px; display: flex; align-items: center; justify-content: center; background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.28); border-radius: 26px; color: #ffffff; font-family: 'Times New Roman',serif; font-size: 58px; font-weight: bold; box-shadow: 0 14px 28px rgba(0,0,0,.16), inset 0 1px 0 rgba(255,255,255,.26);">
+        ו</div>
+    </div>
+    <!-- PRESENTACIÓN DEL EJERCICIO -->
+    <div
+      style="position: relative; z-index: 2; margin-top: 30px; padding: 28px 30px; background: #ffffff; border: 1px solid #dce8f2; border-radius: 24px; box-shadow: 0 16px 34px rgba(8,47,73,.09), inset 0 1px 0 #ffffff;">
+      <div style="display: flex; align-items: flex-start; gap: 18px;">
+        <div
+          style="flex: 0 0 auto; width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; background: linear-gradient(145deg,#e7f3ff,#d9edf9); border: 1px solid #c5deef; border-radius: 16px; color: #0369a1; font-size: 24px; font-weight: 800; box-shadow: 0 8px 16px rgba(3,105,161,.12), inset 0 1px 0 #ffffff;">
+          i</div>
+        <div style="flex: 1; min-width: 0;">
+          <h3
+            style="margin: 0 0 10px; color: #082f49; font-size: 23px; line-height: 1.35; font-weight: 800;">
+            Antes de comenzar</h3>
+          <p
+            style="margin: 0; color: #526579; font-size: 17px; line-height: 1.8;">
+            En hebreo, la letra <strong dir="rtl"
+              style="font-family: 'Times New Roman',serif; color: #0369a1; font-size: 22px;">ו</strong>
+            puede desempeñar dos funciones diferentes: actuar como <strong
+              style="color: #082f49;">consonante</strong> o representar un
+            <strong style="color: #0f766e;">sonido vocálico</strong>. Analiza
+            cada palabra y clasifícala según la función que desempeña esta
+            letra.</p>
+        </div>
+      </div>
+    </div>
+    <!-- INSTRUCCIONES -->
+    <div
+      style="position: relative; z-index: 2; margin-top: 26px; padding: 30px; background: linear-gradient(145deg,#ffffff,#f8fbfe); border: 1px solid #d8e5ef; border-radius: 24px; box-shadow: 0 16px 32px rgba(8,47,73,.08), inset 0 1px 0 #ffffff;">
+      <div
+        style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 24px;">
+        <div>
+          <div
+            style="margin-bottom: 6px; color: #0369a1; font-size: 14px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase;">
+            Instrucciones breves</div>
+          <h3
+            style="margin: 0; color: #082f49; font-size: 23px; line-height: 1.35; font-weight: 800;">
+            ¿Cómo realizar esta actividad?</h3>
+        </div>
+        <div
+          style="padding: 9px 15px; background: #e8f6f4; border: 1px solid #c9e8e3; border-radius: 999px; color: #0f766e; font-size: 15px; font-weight: bold; box-shadow: 0 6px 14px rgba(8,167,153,.10), inset 0 1px 0 #ffffff;">
+          8 palabras por clasificar</div>
+      </div>
+      <div
+        style="display: grid; grid-template-columns: repeat(auto-fit,minmax(210px,1fr)); gap: 18px;">
+        <!-- PASO 1 -->
+        <div
+          style="position: relative; min-height: 150px; padding: 24px 22px 22px; background: #ffffff; border: 1px solid #dce8f2; border-radius: 20px; box-shadow: 0 12px 24px rgba(8,47,73,.07), inset 0 1px 0 #ffffff;">
+          <div
+            style="width: 42px; height: 42px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px; background: linear-gradient(145deg,#0369a1,#0971ce); border-radius: 14px; color: #ffffff; font-size: 18px; font-weight: 800; box-shadow: 0 8px 16px rgba(3,105,161,.22), inset 0 1px 0 rgba(255,255,255,.25);">
+            1</div>
+          <p
+            style="margin: 0; color: #526579; font-size: 16px; line-height: 1.65;">
+            <strong style="color: #082f49;">Observa</strong> cuidadosamente cada
+            palabra hebrea.</p>
+        </div>
+        <!-- PASO 2 -->
+        <div
+          style="position: relative; min-height: 150px; padding: 24px 22px 22px; background: #ffffff; border: 1px solid #dce8f2; border-radius: 20px; box-shadow: 0 12px 24px rgba(8,47,73,.07), inset 0 1px 0 #ffffff;">
+          <div
+            style="width: 42px; height: 42px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px; background: linear-gradient(145deg,#0369a1,#0971ce); border-radius: 14px; color: #ffffff; font-size: 18px; font-weight: 800; box-shadow: 0 8px 16px rgba(3,105,161,.22), inset 0 1px 0 rgba(255,255,255,.25);">
+            2</div>
+          <p
+            style="margin: 0; color: #526579; font-size: 16px; line-height: 1.65;">
+            <strong style="color: #082f49;">Arrastra</strong> cada tarjeta hacia
+            la categoría correspondiente.</p>
+        </div>
+        <!-- PASO 3 -->
+        <div
+          style="position: relative; min-height: 150px; padding: 24px 22px 22px; background: #ffffff; border: 1px solid #dce8f2; border-radius: 20px; box-shadow: 0 12px 24px rgba(8,47,73,.07), inset 0 1px 0 #ffffff;">
+          <div
+            style="width: 42px; height: 42px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px; background: linear-gradient(145deg,#08a799,#0f766e); border-radius: 14px; color: #ffffff; font-size: 18px; font-weight: 800; box-shadow: 0 8px 16px rgba(8,167,153,.22), inset 0 1px 0 rgba(255,255,255,.25);">
+            3</div>
+          <p
+            style="margin: 0; color: #526579; font-size: 16px; line-height: 1.65;">
+            Pulsa <strong style="color: #0f766e;">Comprobar respuestas</strong>
+            cuando hayas clasificado todas.</p>
+        </div>
+        <!-- PASO 4 -->
+        <div
+          style="position: relative; min-height: 150px; padding: 24px 22px 22px; background: #ffffff; border: 1px solid #dce8f2; border-radius: 20px; box-shadow: 0 12px 24px rgba(8,47,73,.07), inset 0 1px 0 #ffffff;">
+          <div
+            style="width: 42px; height: 42px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px; background: linear-gradient(145deg,#08a799,#0f766e); border-radius: 14px; color: #ffffff; font-size: 18px; font-weight: 800; box-shadow: 0 8px 16px rgba(8,167,153,.22), inset 0 1px 0 rgba(255,255,255,.25);">
+            4</div>
+          <p
+            style="margin: 0; color: #526579; font-size: 16px; line-height: 1.65;">
+            Revisa la retroalimentación y <strong style="color: #0f766e;">vuelve
+              a intentarlo</strong> cuando sea necesario.</p>
+        </div>
+      </div>
+    </div>
+    <!-- OBJETIVO -->
+    <div
+      style="position: relative; z-index: 2; margin-top: 26px; display: flex; align-items: center; gap: 18px; padding: 22px 26px; background: linear-gradient(135deg,#e9f5ff,#e7f8f5); border: 1px solid #cfe3ed; border-left: 7px solid #08a799; border-radius: 20px; box-shadow: 0 12px 24px rgba(8,47,73,.07), inset 0 1px 0 rgba(255,255,255,.9);">
+      <div
+        style="flex: 0 0 auto; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; background: #ffffff; border: 1px solid #cfe3ed; border-radius: 14px; color: #08a799; font-size: 21px; font-weight: 800; box-shadow: 0 7px 14px rgba(8,47,73,.08);">
+        ✓</div>
+      <p style="margin: 0; color: #3f566b; font-size: 17px; line-height: 1.7;">
+        <strong style="color: #082f49;">Objetivo:</strong> identificar cuándo la
+        letra <strong dir="rtl"
+          style="font-family: 'Times New Roman',serif; color: #0369a1; font-size: 22px;">ו</strong>
+        funciona como consonante y cuándo representa un sonido vocálico.</p>
+    </div>
+    <!-- ENCABEZADO DEL TABLERO -->
+    <div
+      style="position: relative; z-index: 2; margin-top: 38px; text-align: center;">
+      <div
+        style="display: inline-block; margin-bottom: 9px; padding: 7px 14px; background: #ffffff; border: 1px solid #d8e5ef; border-radius: 999px; color: #0369a1; font-size: 14px; font-weight: 800; letter-spacing: .8px; text-transform: uppercase; box-shadow: 0 7px 16px rgba(8,47,73,.07);">
+        Mesa de clasificación</div>
+      <h3
+        style="margin: 0; color: #082f49; font-size: 28px; line-height: 1.35; font-weight: 800;">
+        Arrastra cada palabra hacia la categoría correcta</h3>
+      <p
+        style="max-width: 760px; margin: 10px auto 0; color: #607286; font-size: 17px; line-height: 1.7;">
+        Las tarjetas aparecerán en la parte inferior del tablero. Puedes
+        moverlas entre ambas categorías antes de comprobar tus respuestas.</p>
+    </div>
+    <!-- ZONAS DE CLASIFICACIÓN -->
+    <div
+      style="position: relative; z-index: 2; display: grid; grid-template-columns: repeat(auto-fit,minmax(290px,1fr)); gap: 28px; margin-top: 28px;">
+      <!-- ZONA: CONSONANTE -->
+      <div
+        style="position: relative; overflow: hidden; min-height: 355px; background: linear-gradient(160deg,#ffffff 0%,#eef7ff 100%); border: 1px solid #bfd9ed; border-radius: 26px; padding: 12px; box-sizing: border-box; box-shadow: 0 22px 42px rgba(3,105,161,.13), 0 8px 18px rgba(8,47,73,.08), inset 0 1px 0 #ffffff;">
+        <div
+          style="height: 100%; min-height: 329px; display: flex; flex-direction: column; border: 2px dashed #8bbcdf; border-radius: 20px; background: rgba(255,255,255,.66); box-shadow: inset 0 0 28px rgba(3,105,161,.05);">
+          <!-- CABECERA DE ZONA -->
+          <div
+            style="padding: 25px 24px 22px; background: linear-gradient(135deg,#082f49,#0369a1); border-radius: 18px 18px 12px 12px; color: #ffffff; box-shadow: 0 12px 24px rgba(3,105,161,.22), inset 0 1px 0 rgba(255,255,255,.18);">
+            <div
+              style="display: flex; align-items: center; justify-content: space-between; gap: 18px;">
+              <div>
+                <div
+                  style="margin-bottom: 7px; color: #cfeeff; font-size: 13px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase;">
+                  Categoría 1</div>
+                <h4
+                  style="margin: 0; color: #ffffff; font-size: 24px; line-height: 1.35; font-weight: 800;">
+                  <span dir="rtl"
+                    style="font-family: 'Times New Roman',serif; font-size: 34px;">ו</span>
+                  como consonante</h4>
+              </div>
+              <div
+                style="flex: 0 0 auto; width: 54px; height: 54px; display: flex; align-items: center; justify-content: center; background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.24); border-radius: 17px; font-family: 'Times New Roman',serif; font-size: 36px; box-shadow: 0 8px 18px rgba(0,0,0,.12), inset 0 1px 0 rgba(255,255,255,.22);">
+                ו</div>
+            </div>
+            <p
+              style="margin: 13px 0 0; color: #e1f2ff; font-size: 15px; line-height: 1.6;">
+              Coloca aquí las palabras en las que la letra participa como sonido
+              consonántico.</p>
+          </div>
+          <!-- ÁREA DE DEPÓSITO -->
+          <div id="zonaConsonanteVav" class="zona-clasificacion-vav"
+            style="flex: 1; min-height: 190px; display: flex; flex-wrap: wrap; align-content: flex-start; justify-content: center; gap: 14px; padding: 24px; box-sizing: border-box;"
+            data-categoria="consonante"
+            aria-label="Zona para palabras en las que la letra vav funciona como consonante">
+            <div class="mensaje-zona-vav"
+              style="width: 100%; align-self: center; text-align: center; color: #71869a; font-size: 16px; line-height: 1.6;">
+              <div
+                style="width: 58px; height: 58px; display: flex; align-items: center; justify-content: center; margin: 0 auto 13px; background: #e6f2fb; border: 1px solid #c8dfef; border-radius: 18px; color: #0369a1; font-size: 25px; font-weight: 800; box-shadow: 0 8px 16px rgba(3,105,161,.10), inset 0 1px 0 #ffffff;">
+                ↓</div>
+              Arrastra aquí las palabras correspondientes.
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ZONA: VOCAL -->
+      <div
+        style="position: relative; overflow: hidden; min-height: 355px; background: linear-gradient(160deg,#ffffff 0%,#edf9f7 100%); border: 1px solid #bfe2dc; border-radius: 26px; padding: 12px; box-sizing: border-box; box-shadow: 0 22px 42px rgba(8,167,153,.13), 0 8px 18px rgba(8,47,73,.08), inset 0 1px 0 #ffffff;">
+        <div
+          style="height: 100%; min-height: 329px; display: flex; flex-direction: column; border: 2px dashed #86c9be; border-radius: 20px; background: rgba(255,255,255,.66); box-shadow: inset 0 0 28px rgba(8,167,153,.05);">
+          <!-- CABECERA DE ZONA -->
+          <div
+            style="padding: 25px 24px 22px; background: linear-gradient(135deg,#0f766e,#08a799); border-radius: 18px 18px 12px 12px; color: #ffffff; box-shadow: 0 12px 24px rgba(8,167,153,.22), inset 0 1px 0 rgba(255,255,255,.18);">
+            <div
+              style="display: flex; align-items: center; justify-content: space-between; gap: 18px;">
+              <div>
+                <div
+                  style="margin-bottom: 7px; color: #d8fbf5; font-size: 13px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase;">
+                  Categoría 2</div>
+                <h4
+                  style="margin: 0; color: #ffffff; font-size: 24px; line-height: 1.35; font-weight: 800;">
+                  <span dir="rtl"
+                    style="font-family: 'Times New Roman',serif; font-size: 34px;">ו</span>
+                  como vocal</h4>
+              </div>
+              <div
+                style="flex: 0 0 auto; width: 54px; height: 54px; display: flex; align-items: center; justify-content: center; background: rgba(255,255,255,.15); border: 1px solid rgba(255,255,255,.24); border-radius: 17px; font-family: 'Times New Roman',serif; font-size: 36px; box-shadow: 0 8px 18px rgba(0,0,0,.12), inset 0 1px 0 rgba(255,255,255,.22);">
+                וֹ</div>
+            </div>
+            <p
+              style="margin: 13px 0 0; color: #e0fff9; font-size: 15px; line-height: 1.6;">
+              Coloca aquí las palabras en las que la letra representa un sonido
+              vocálico.</p>
+          </div>
+          <!-- ÁREA DE DEPÓSITO -->
+          <div id="zonaVocalVav" class="zona-clasificacion-vav"
+            style="flex: 1; min-height: 190px; display: flex; flex-wrap: wrap; align-content: flex-start; justify-content: center; gap: 14px; padding: 24px; box-sizing: border-box;"
+            data-categoria="vocal"
+            aria-label="Zona para palabras en las que la letra vav funciona como vocal">
+            <div class="mensaje-zona-vav"
+              style="width: 100%; align-self: center; text-align: center; color: #71869a; font-size: 16px; line-height: 1.6;">
+              <div
+                style="width: 58px; height: 58px; display: flex; align-items: center; justify-content: center; margin: 0 auto 13px; background: #e4f6f2; border: 1px solid #c4e6df; border-radius: 18px; color: #0f766e; font-size: 25px; font-weight: 800; box-shadow: 0 8px 16px rgba(8,167,153,.10), inset 0 1px 0 #ffffff;">
+                ↓</div>
+              Arrastra aquí las palabras correspondientes.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- LA PARTE 2 CONTINÚA AQUÍ: TARJETAS, BOTONES Y RESULTADOS --><!-- ===================================================== --><!-- PARTE 2 · TARJETAS, PANEL DE TRABAJO Y BOTONES        --><!-- Continúa inmediatamente después de la Parte 1         --><!-- ===================================================== --><!-- PANEL DE TARJETAS -->
+    <div
+      style="position: relative; z-index: 2; margin-top: 42px; background: linear-gradient(145deg,#ffffff 0%,#f8fbfe 100%); border: 1px solid #dbe7f0; border-radius: 28px; padding: 34px; box-sizing: border-box; box-shadow: 0 24px 48px rgba(8,47,73,.10), 0 10px 24px rgba(3,105,161,.06), inset 0 1px 0 #ffffff;">
+      <!-- CABECERA -->
+      <div
+        style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px; margin-bottom: 28px;">
+        <div>
+          <div
+            style="display: inline-block; margin-bottom: 8px; padding: 7px 15px; background: #e9f4fb; border: 1px solid #cfe2f0; border-radius: 999px; color: #0369a1; font-size: 14px; font-weight: 800; letter-spacing: .8px; text-transform: uppercase;">
+            Palabras por clasificar</div>
+          <h3
+            style="margin: 0; color: #082f49; font-size: 28px; line-height: 1.3; font-weight: 800;">
+            Arrastra cada tarjeta al panel correspondiente</h3>
+          <p
+            style="margin: 10px 0 0; color: #607286; font-size: 17px; line-height: 1.7;">
+            Puedes reorganizar las tarjetas todas las veces que sea necesario
+            antes de comprobar tus respuestas.</p>
+        </div>
+        <!-- INDICADOR -->
+        <div
+          style="padding: 16px 22px; background: linear-gradient(135deg,#eef8ff,#eafaf7); border: 1px solid #d5e7ef; border-radius: 18px; box-shadow: 0 10px 20px rgba(8,47,73,.08), inset 0 1px 0 #ffffff;">
+          <div
+            style="font-size: 13px; color: #607286; font-weight: bold; text-transform: uppercase; letter-spacing: .8px;">
+            Total de tarjetas</div>
+          <div
+            style="margin-top: 4px; color: #082f49; font-size: 30px; font-weight: 800;">
+            8</div>
+        </div>
+      </div>
+      <!-- CONTENEDOR DE TARJETAS -->
+      <div id="contenedorTarjetasVav"
+        style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 22px; min-height: 220px; padding: 36px; background: linear-gradient(145deg,#f5fbff,#f9fdfc); border: 2px dashed #cbddea; border-radius: 24px; box-shadow: inset 0 0 36px rgba(3,105,161,.05);">
+        <!-- =============================== --><!-- TARJETA 1 --><!-- =============================== -->
+        <div class="tarjeta-vav"
+          style="cursor: grab; user-select: none; min-width: 145px; padding: 18px 26px; background: #ffffff; border: 1px solid #d6e3ec; border-radius: 18px; text-align: center; transition: .25s; box-shadow: 0 14px 28px rgba(8,47,73,.09), 0 4px 10px rgba(8,47,73,.04), inset 0 1px 0 #ffffff;"
+          draggable="true" data-respuesta="vocal">
+          <div
+            style="font-family: 'Times New Roman',serif; font-size: 38px; color: #082f49; line-height: 1.2;">
+            לוּן</div>
+        </div>
+        <!-- =============================== --><!-- TARJETA 2 --><!-- =============================== -->
+        <div class="tarjeta-vav"
+          style="cursor: grab; user-select: none; min-width: 145px; padding: 18px 26px; background: #ffffff; border: 1px solid #d6e3ec; border-radius: 18px; text-align: center; transition: .25s; box-shadow: 0 14px 28px rgba(8,47,73,.09), 0 4px 10px rgba(8,47,73,.04), inset 0 1px 0 #ffffff;"
+          draggable="true" data-respuesta="vocal">
+          <div
+            style="font-family: 'Times New Roman',serif; font-size: 38px; color: #082f49;">
+            רוּת</div>
+        </div>
+        <!-- =============================== -->
+        <div class="tarjeta-vav"
+          style="cursor: grab; user-select: none; min-width: 145px; padding: 18px 26px; background: #ffffff; border: 1px solid #d6e3ec; border-radius: 18px; text-align: center; transition: .25s; box-shadow: 0 14px 28px rgba(8,47,73,.09),0 4px 10px rgba(8,47,73,.04), inset 0 1px 0 #ffffff;"
+          draggable="true" data-respuesta="consonante">
+          <div
+            style="font-family: 'Times New Roman',serif; font-size: 38px; color: #082f49;">
+            וְשֵׁם</div>
+        </div>
+        <!-- =============================== -->
+        <div class="tarjeta-vav"
+          style="cursor: grab; user-select: none; min-width: 145px; padding: 18px 26px; background: #ffffff; border: 1px solid #d6e3ec; border-radius: 18px; text-align: center; transition: .25s; box-shadow: 0 14px 28px rgba(8,47,73,.09),0 4px 10px rgba(8,47,73,.04), inset 0 1px 0 #ffffff;"
+          draggable="true" data-respuesta="consonante">
+          <div
+            style="font-family: 'Times New Roman',serif; font-size: 38px; color: #082f49;">
+            וִיהִי</div>
+        </div>
+        <!-- =============================== -->
+        <div class="tarjeta-vav"
+          style="cursor: grab; user-select: none; min-width: 145px; padding: 18px 26px; background: #ffffff; border: 1px solid #d6e3ec; border-radius: 18px; text-align: center; transition: .25s; box-shadow: 0 14px 28px rgba(8,47,73,.09),0 4px 10px rgba(8,47,73,.04), inset 0 1px 0 #ffffff;"
+          draggable="true" data-respuesta="consonante">
+          <div
+            style="font-family: 'Times New Roman',serif; font-size: 38px; color: #082f49;">
+            מָוֶת</div>
+        </div>
+        <!-- =============================== -->
+        <div class="tarjeta-vav"
+          style="cursor: grab; user-select: none; min-width: 145px; padding: 18px 26px; background: #ffffff; border: 1px solid #d6e3ec; border-radius: 18px; text-align: center; transition: .25s; box-shadow: 0 14px 28px rgba(8,47,73,.09),0 4px 10px rgba(8,47,73,.04), inset 0 1px 0 #ffffff;"
+          draggable="true" data-respuesta="vocal">
+          <div
+            style="font-family: 'Times New Roman',serif; font-size: 38px; color: #082f49;">
+            בּוֹשׁ</div>
+        </div>
+        <!-- =============================== -->
+        <div class="tarjeta-vav"
+          style="cursor: grab; user-select: none; min-width: 145px; padding: 18px 26px; background: #ffffff; border: 1px solid #d6e3ec; border-radius: 18px; text-align: center; transition: .25s; box-shadow: 0 14px 28px rgba(8,47,73,.09),0 4px 10px rgba(8,47,73,.04), inset 0 1px 0 #ffffff;"
+          draggable="true" data-respuesta="consonante">
+          <div
+            style="font-family: 'Times New Roman',serif; font-size: 38px; color: #082f49;">
+            וַיְהִי</div>
+        </div>
+        <!-- =============================== -->
+        <div class="tarjeta-vav"
+          style="cursor: grab; user-select: none; min-width: 145px; padding: 18px 26px; background: #ffffff; border: 1px solid #d6e3ec; border-radius: 18px; text-align: center; transition: .25s; box-shadow: 0 14px 28px rgba(8,47,73,.09),0 4px 10px rgba(8,47,73,.04), inset 0 1px 0 #ffffff;"
+          draggable="true" data-respuesta="vocal">
+          <div
+            style="font-family: 'Times New Roman',serif; font-size: 38px; color: #082f49;">
+            קוּם</div>
+        </div>
+      </div>
+      <!-- BOTONES -->
+      <div
+        style="display: flex; flex-wrap: wrap; justify-content: center; gap: 24px; margin-top: 38px;">
+        <button id="btnComprobarVav"
+          style="cursor: pointer; border: none; padding: 18px 38px; background: linear-gradient(135deg,#0369a1,#08a799); color: #ffffff; font-size: 18px; font-weight: bold; border-radius: 16px; box-shadow: 0 18px 32px rgba(8,47,73,.22), inset 0 1px 0 rgba(255,255,255,.20); transition: .25s;">
+          ✓ Comprobar respuestas </button> <button id="btnReiniciarVav"
+          style="cursor: pointer; border: 1px solid #d5e2eb; padding: 18px 38px; background: #ffffff; color: #082f49; font-size: 18px; font-weight: bold; border-radius: 16px; box-shadow: 0 14px 28px rgba(8,47,73,.09), inset 0 1px 0 #ffffff; transition: .25s;">
+          ↺ Intentar nuevamente </button></div>
+      <!-- PANEL DE RESULTADOS -->
+      <div id="panelResultadoVav"
+        style="display: none; margin-top: 36px; padding: 28px; background: linear-gradient(145deg,#eef8ff,#eefcf8); border: 1px solid #d0e7e2; border-radius: 22px; box-shadow: 0 18px 36px rgba(8,47,73,.10), inset 0 1px 0 #ffffff;">
+        <div
+          style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 20px;">
+          <div>
+            <div
+              style="font-size: 14px; color: #0369a1; text-transform: uppercase; font-weight: 800; letter-spacing: .8px;">
+              Resultado</div>
+            <div id="textoResultadoVav"
+              style="margin-top: 6px; color: #082f49; font-size: 30px; font-weight: 800;">
+              0 de 8 correctas</div>
+          </div>
+          <div
+            style="width: 150px; height: 150px; display: flex; align-items: center; justify-content: center; border-radius: 50%; background: #ffffff; border: 6px solid #08a799; color: #08a799; font-size: 48px; font-weight: 800; box-shadow: 0 18px 34px rgba(8,47,73,.10);">
+            ✓</div>
+        </div>
+        <!-- BARRA -->
+        <div
+          style="margin-top: 28px; width: 100%; height: 16px; background: #dbe8ef; border-radius: 999px; overflow: hidden;">
+          <div id="barraResultadoVav"
+            style="width: 0%; height: 100%; background: linear-gradient(90deg,#0369a1,#08a799); transition: .5s;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- LA PARTE 3 CONTENDRÁ TODO EL JAVASCRIPT:
+     Drag & Drop
+     Hover
+     Animaciones
+     Validación
+     Retroalimentación
+     Reinicio
+     Efectos visuales --><!-- ======================================================= --><!-- EJERCICIO 2 · PARTE 3A                                  --><!-- MOVIMIENTO DE TARJETAS, DRAG & DROP Y EFECTOS VISUALES --><!-- Colocar inmediatamente después de la Parte 2            --><!-- ======================================================= -->
+<p>
+  <script>
+    (function() {
+      "use strict";
+
+      /* =======================================================
+         REFERENCIAS PRINCIPALES
+         ======================================================= */
+
+      var ejercicio = document.getElementById("ejercicioVavClasificacion");
+
+      if (!ejercicio) {
+        return;
+      }
+
+      var contenedorTarjetas = document.getElementById(
+        "contenedorTarjetasVav");
+      var zonas = ejercicio.querySelectorAll(".zona-clasificacion-vav");
+      var tarjetas = ejercicio.querySelectorAll(".tarjeta-vav");
+
+      var tarjetaArrastrada = null;
+      var zonaOrigen = null;
+      var ejercicioBloqueado = false;
+
+      /* =======================================================
+         ESTILOS DINÁMICOS
+         ======================================================= */
+
+      var estilos = document.createElement("style");
+
+      estilos.textContent =
+        "#ejercicioVavClasificacion .tarjeta-vav{" +
+        "position:relative;" +
+        "touch-action:none;" +
+        "-webkit-tap-highlight-color:transparent;" +
+        "transform:translateY(0) scale(1);" +
+        "will-change:transform,box-shadow;" +
+        "}" +
+
+        "#ejercicioVavClasificacion .tarjeta-vav:hover{" +
+        "transform:translateY(-6px) scale(1.025);" +
+        "border-color:#9dc7df !important;" +
+        "box-shadow:0 22px 38px rgba(8,47,73,.16)," +
+        "0 8px 16px rgba(3,105,161,.09)," +
+        "inset 0 1px 0 #ffffff !important;" +
+        "}" +
+
+        "#ejercicioVavClasificacion .tarjeta-vav:focus{" +
+        "outline:3px solid rgba(8,167,153,.28);" +
+        "outline-offset:4px;" +
+        "}" +
+
+        "#ejercicioVavClasificacion .tarjeta-vav.vav-arrastrando{" +
+        "opacity:.46;" +
+        "transform:scale(.96);" +
+        "cursor:grabbing !important;" +
+        "box-shadow:0 10px 18px rgba(8,47,73,.10) !important;" +
+        "}" +
+
+        "#ejercicioVavClasificacion .tarjeta-vav.vav-colocada{" +
+        "animation:vavCaidaSuave .34s ease-out;" +
+        "}" +
+
+        "#ejercicioVavClasificacion .zona-clasificacion-vav{" +
+        "transition:background-color .24s ease," +
+        "box-shadow .24s ease," +
+        "transform .24s ease;" +
+        "}" +
+
+        "#ejercicioVavClasificacion .zona-clasificacion-vav.vav-zona-activa{" +
+        "background:rgba(224,246,250,.84) !important;" +
+        "box-shadow:inset 0 0 0 3px rgba(8,167,153,.22)," +
+        "inset 0 0 35px rgba(8,167,153,.12)," +
+        "0 12px 28px rgba(8,47,73,.08);" +
+        "transform:scale(1.012);" +
+        "}" +
+
+        "#ejercicioVavClasificacion #contenedorTarjetasVav.vav-zona-activa{" +
+        "background:linear-gradient(145deg,#eaf7ff,#ecfaf7) !important;" +
+        "border-color:#83b9d7 !important;" +
+        "box-shadow:inset 0 0 0 3px rgba(3,105,161,.14)," +
+        "inset 0 0 35px rgba(3,105,161,.08);" +
+        "}" +
+
+        "#ejercicioVavClasificacion .vav-ghost{" +
+        "position:fixed;" +
+        "z-index:999999;" +
+        "pointer-events:none;" +
+        "margin:0;" +
+        "opacity:.96;" +
+        "transform:translate(-50%,-50%) rotate(-2deg) scale(1.05);" +
+        "box-shadow:0 28px 52px rgba(8,47,73,.26)," +
+        "0 12px 24px rgba(3,105,161,.16) !important;" +
+        "transition:none !important;" +
+        "}" +
+
+        "#ejercicioVavClasificacion .vav-mensaje-seleccion{" +
+        "width:100%;" +
+        "margin-top:18px;" +
+        "padding:14px 18px;" +
+        "box-sizing:border-box;" +
+        "background:#eef8ff;" +
+        "border:1px solid #cfe3f0;" +
+        "border-radius:14px;" +
+        "color:#36566f;" +
+        "font-size:15px;" +
+        "line-height:1.6;" +
+        "text-align:center;" +
+        "box-shadow:0 8px 16px rgba(8,47,73,.06)," +
+        "inset 0 1px 0 #ffffff;" +
+        "}" +
+
+        "@keyframes vavCaidaSuave{" +
+        "0%{transform:translateY(-12px) scale(1.06);opacity:.68;}" +
+        "70%{transform:translateY(2px) scale(.99);opacity:1;}" +
+        "100%{transform:translateY(0) scale(1);opacity:1;}" +
+        "}";
+
+      ejercicio.appendChild(estilos);
+
+      /* =======================================================
+         CONFIGURACIÓN DE ACCESIBILIDAD
+         ======================================================= */
+
+      for (var i = 0; i < tarjetas.length; i++) {
+        tarjetas[i].setAttribute("tabindex", "0");
+        tarjetas[i].setAttribute("role", "button");
+        tarjetas[i].setAttribute(
+          "aria-label",
+          "Palabra hebrea. Arrastra o selecciona para clasificar."
+        );
+      }
+
+      contenedorTarjetas.setAttribute(
+        "aria-label",
+        "Panel de palabras pendientes por clasificar"
+      );
+
+      /* =======================================================
+         FUNCIONES VISUALES
+         ======================================================= */
+
+      function activarZona(zona) {
+        limpiarZonasActivas();
+
+        if (zona) {
+          zona.classList.add("vav-zona-activa");
+        }
+      }
+
+      function limpiarZonasActivas() {
+        for (var i = 0; i < zonas.length; i++) {
+          zonas[i].classList.remove("vav-zona-activa");
+        }
+
+        contenedorTarjetas.classList.remove("vav-zona-activa");
+      }
+
+      function ocultarMensajeZona(zona) {
+        if (!zona) {
+          return;
+        }
+
+        var mensaje = zona.querySelector(".mensaje-zona-vav");
+
+        if (mensaje) {
+          mensaje.style.display = "none";
+        }
+      }
+
+      function actualizarMensajesZonas() {
+        for (var i = 0; i < zonas.length; i++) {
+          var zona = zonas[i];
+          var mensaje = zona.querySelector(".mensaje-zona-vav");
+          var tarjetasDentro = zona.querySelectorAll(".tarjeta-vav");
+
+          if (!mensaje) {
+            continue;
+          }
+
+          mensaje.style.display =
+            tarjetasDentro.length === 0 ? "block" : "none";
+        }
+      }
+
+      function animarColocacion(tarjeta) {
+        tarjeta.classList.remove("vav-colocada");
+
+        void tarjeta.offsetWidth;
+
+        tarjeta.classList.add("vav-colocada");
+
+        window.setTimeout(function() {
+          tarjeta.classList.remove("vav-colocada");
+        }, 380);
+      }
+
+      function prepararTarjetaParaMover(tarjeta) {
+        tarjeta.style.background = "#ffffff";
+        tarjeta.style.borderColor = "#d6e3ec";
+        tarjeta.style.opacity = "1";
+        tarjeta.style.pointerEvents = "auto";
+        tarjeta.style.cursor = "grab";
+      }
+
+      /* =======================================================
+         MOVIMIENTO DE TARJETAS
+         ======================================================= */
+
+      function moverTarjeta(tarjeta, destino) {
+        if (!tarjeta || !destino || ejercicioBloqueado) {
+          return;
+        }
+
+        prepararTarjetaParaMover(tarjeta);
+
+        destino.appendChild(tarjeta);
+
+        if (destino.classList.contains("zona-clasificacion-vav")) {
+          ocultarMensajeZona(destino);
+        }
+
+        actualizarMensajesZonas();
+        animarColocacion(tarjeta);
+        limpiarZonasActivas();
+
+        tarjeta.setAttribute(
+          "aria-label",
+          destino === contenedorTarjetas ?
+          "Palabra hebrea pendiente por clasificar." :
+          "Palabra hebrea colocada en la categoría " +
+          destino.getAttribute("data-categoria") +
+          "."
+        );
+
+        /* Evento personalizado para la futura Parte 3B */
+
+        var eventoMovimiento;
+
+        try {
+          eventoMovimiento = new CustomEvent("vavTarjetaMovida", {
+            bubbles: true,
+            detail: {
+              tarjeta: tarjeta,
+              destino: destino
+            }
+          });
+        } catch (error) {
+          eventoMovimiento = document.createEvent("CustomEvent");
+          eventoMovimiento.initCustomEvent(
+            "vavTarjetaMovida",
+            true,
+            true, {
+              tarjeta: tarjeta,
+              destino: destino
+            }
+          );
+        }
+
+        ejercicio.dispatchEvent(eventoMovimiento);
+      }
+
+      /* =======================================================
+         DRAG & DROP PARA COMPUTADORA
+         ======================================================= */
+
+      function iniciarArrastre(evento) {
+        if (ejercicioBloqueado) {
+          evento.preventDefault();
+          return;
+        }
+
+        tarjetaArrastrada = evento.currentTarget;
+        zonaOrigen = tarjetaArrastrada.parentElement;
+
+        tarjetaArrastrada.classList.add("vav-arrastrando");
+
+        if (evento.dataTransfer) {
+          evento.dataTransfer.effectAllowed = "move";
+
+          try {
+            evento.dataTransfer.setData("text/plain", "tarjeta-vav");
+          } catch (error) {
+            /* Algunos navegadores bloquean setData. */
+          }
+        }
+      }
+
+      function finalizarArrastre() {
+        if (tarjetaArrastrada) {
+          tarjetaArrastrada.classList.remove("vav-arrastrando");
+        }
+
+        tarjetaArrastrada = null;
+        zonaOrigen = null;
+        limpiarZonasActivas();
+        actualizarMensajesZonas();
+      }
+
+      function permitirSoltar(evento) {
+        if (ejercicioBloqueado) {
+          return;
+        }
+
+        evento.preventDefault();
+
+        if (evento.dataTransfer) {
+          evento.dataTransfer.dropEffect = "move";
+        }
+
+        activarZona(evento.currentTarget);
+      }
+
+      function salirDeZona(evento) {
+        var zona = evento.currentTarget;
+        var elementoRelacionado = evento.relatedTarget;
+
+        if (
+          !elementoRelacionado ||
+          !zona.contains(elementoRelacionado)
+        ) {
+          zona.classList.remove("vav-zona-activa");
+        }
+      }
+
+      function soltarTarjeta(evento) {
+        if (ejercicioBloqueado) {
+          return;
+        }
+
+        evento.preventDefault();
+
+        var destino = evento.currentTarget;
+
+        if (tarjetaArrastrada) {
+          moverTarjeta(tarjetaArrastrada, destino);
+        }
+
+        finalizarArrastre();
+      }
+
+      for (var j = 0; j < tarjetas.length; j++) {
+        tarjetas[j].addEventListener("dragstart", iniciarArrastre);
+        tarjetas[j].addEventListener("dragend", finalizarArrastre);
+      }
+
+      for (var k = 0; k < zonas.length; k++) {
+        zonas[k].addEventListener("dragover", permitirSoltar);
+        zonas[k].addEventListener("dragenter", permitirSoltar);
+        zonas[k].addEventListener("dragleave", salirDeZona);
+        zonas[k].addEventListener("drop", soltarTarjeta);
+      }
+
+      contenedorTarjetas.addEventListener("dragover", permitirSoltar);
+      contenedorTarjetas.addEventListener("dragenter", permitirSoltar);
+      contenedorTarjetas.addEventListener("dragleave", salirDeZona);
+      contenedorTarjetas.addEventListener("drop", soltarTarjeta);
+
+      /* =======================================================
+         ARRASTRE TÁCTIL CON POINTER EVENTS
+         ======================================================= */
+
+      var estadoTactil = {
+        activo: false,
+        tarjeta: null,
+        fantasma: null,
+        pointerId: null,
+        inicioX: 0,
+        inicioY: 0,
+        movido: false
+      };
+
+      function crearFantasma(tarjeta, x, y) {
+        var fantasma = tarjeta.cloneNode(true);
+        var medidas = tarjeta.getBoundingClientRect();
+
+        fantasma.classList.remove("vav-arrastrando");
+        fantasma.classList.add("vav-ghost");
+        fantasma.removeAttribute("id");
+        fantasma.removeAttribute("draggable");
+        fantasma.style.width = medidas.width + "px";
+        fantasma.style.height = medidas.height + "px";
+        fantasma.style.left = x + "px";
+        fantasma.style.top = y + "px";
+
+        ejercicio.appendChild(fantasma);
+
+        return fantasma;
+      }
+
+      function buscarDestinoEnPunto(x, y) {
+        var elemento = document.elementFromPoint(x, y);
+
+        if (!elemento) {
+          return null;
+        }
+
+        var zona = elemento.closest ?
+          elemento.closest(".zona-clasificacion-vav") :
+          null;
+
+        if (zona && ejercicio.contains(zona)) {
+          return zona;
+        }
+
+        if (
+          elemento === contenedorTarjetas ||
+          contenedorTarjetas.contains(elemento)
+        ) {
+          return contenedorTarjetas;
+        }
+
+        return null;
+      }
+
+      function iniciarArrastreTactil(evento) {
+        if (
+          ejercicioBloqueado ||
+          evento.pointerType === "mouse"
+        ) {
+          return;
+        }
+
+        var tarjeta = evento.currentTarget;
+
+        estadoTactil.activo = true;
+        estadoTactil.tarjeta = tarjeta;
+        estadoTactil.pointerId = evento.pointerId;
+        estadoTactil.inicioX = evento.clientX;
+        estadoTactil.inicioY = evento.clientY;
+        estadoTactil.movido = false;
+
+        tarjeta.setPointerCapture(evento.pointerId);
+      }
+
+      function moverArrastreTactil(evento) {
+        if (
+          !estadoTactil.activo ||
+          evento.pointerId !== estadoTactil.pointerId
+        ) {
+          return;
+        }
+
+        var diferenciaX = Math.abs(
+          evento.clientX - estadoTactil.inicioX
+        );
+
+        var diferenciaY = Math.abs(
+          evento.clientY - estadoTactil.inicioY
+        );
+
+        if (
+          !estadoTactil.movido &&
+          diferenciaX < 8 &&
+          diferenciaY < 8
+        ) {
+          return;
+        }
+
+        evento.preventDefault();
+        estadoTactil.movido = true;
+
+        if (!estadoTactil.fantasma) {
+          estadoTactil.fantasma = crearFantasma(
+            estadoTactil.tarjeta,
+            evento.clientX,
+            evento.clientY
+          );
+
+          estadoTactil.tarjeta.classList.add("vav-arrastrando");
+        }
+
+        estadoTactil.fantasma.style.left =
+          evento.clientX + "px";
+
+        estadoTactil.fantasma.style.top =
+          evento.clientY + "px";
+
+        activarZona(
+          buscarDestinoEnPunto(
+            evento.clientX,
+            evento.clientY
+          )
+        );
+      }
+
+      function finalizarArrastreTactil(evento) {
+        if (
+          !estadoTactil.activo ||
+          evento.pointerId !== estadoTactil.pointerId
+        ) {
+          return;
+        }
+
+        var destino = buscarDestinoEnPunto(
+          evento.clientX,
+          evento.clientY
+        );
+
+        if (
+          estadoTactil.movido &&
+          destino &&
+          estadoTactil.tarjeta
+        ) {
+          moverTarjeta(estadoTactil.tarjeta, destino);
+        }
+
+        if (estadoTactil.tarjeta) {
+          estadoTactil.tarjeta.classList.remove(
+            "vav-arrastrando"
+          );
+
+          try {
+            estadoTactil.tarjeta.releasePointerCapture(
+              evento.pointerId
+            );
+          } catch (error) {
+            /* El navegador puede liberar la captura automáticamente. */
+          }
+        }
+
+        if (
+          estadoTactil.fantasma &&
+          estadoTactil.fantasma.parentNode
+        ) {
+          estadoTactil.fantasma.parentNode.removeChild(
+            estadoTactil.fantasma
+          );
+        }
+
+        estadoTactil.activo = false;
+        estadoTactil.tarjeta = null;
+        estadoTactil.fantasma = null;
+        estadoTactil.pointerId = null;
+        estadoTactil.movido = false;
+
+        limpiarZonasActivas();
+        actualizarMensajesZonas();
+      }
+
+      if (window.PointerEvent) {
+        for (var m = 0; m < tarjetas.length; m++) {
+          tarjetas[m].addEventListener(
+            "pointerdown",
+            iniciarArrastreTactil
+          );
+
+          tarjetas[m].addEventListener(
+            "pointermove",
+            moverArrastreTactil, {
+              passive: false
+            }
+          );
+
+          tarjetas[m].addEventListener(
+            "pointerup",
+            finalizarArrastreTactil
+          );
+
+          tarjetas[m].addEventListener(
+            "pointercancel",
+            finalizarArrastreTactil
+          );
+        }
+      }
+
+      /* =======================================================
+         ALTERNATIVA ACCESIBLE:
+         SELECCIONAR TARJETA Y ELEGIR UNA CATEGORÍA
+         ======================================================= */
+
+      var tarjetaSeleccionada = null;
+
+      function seleccionarTarjeta(tarjeta) {
+        if (ejercicioBloqueado) {
+          return;
+        }
+
+        if (
+          tarjetaSeleccionada &&
+          tarjetaSeleccionada !== tarjeta
+        ) {
+          tarjetaSeleccionada.style.outline = "";
+          tarjetaSeleccionada.style.outlineOffset = "";
+        }
+
+        if (tarjetaSeleccionada === tarjeta) {
+          tarjeta.style.outline = "";
+          tarjeta.style.outlineOffset = "";
+          tarjetaSeleccionada = null;
+          ocultarAvisoSeleccion();
+          return;
+        }
+
+        tarjetaSeleccionada = tarjeta;
+
+        tarjeta.style.outline =
+          "3px solid rgba(8,167,153,.38)";
+
+        tarjeta.style.outlineOffset = "5px";
+
+        mostrarAvisoSeleccion();
+      }
+
+      function mostrarAvisoSeleccion() {
+        var aviso = ejercicio.querySelector(
+          ".vav-mensaje-seleccion"
+        );
+
+        if (!aviso) {
+          aviso = document.createElement("div");
+          aviso.className = "vav-mensaje-seleccion";
+          aviso.setAttribute("role", "status");
+
+          aviso.innerHTML =
+            "<strong style='color:#082f49;'>" +
+            "Tarjeta seleccionada.</strong> " +
+            "Pulsa una de las dos categorías para colocarla.";
+
+          contenedorTarjetas.parentNode.insertBefore(
+            aviso,
+            contenedorTarjetas.nextSibling
+          );
+        }
+
+        aviso.style.display = "block";
+      }
+
+      function ocultarAvisoSeleccion() {
+        var aviso = ejercicio.querySelector(
+          ".vav-mensaje-seleccion"
+        );
+
+        if (aviso) {
+          aviso.style.display = "none";
+        }
+      }
+
+      function colocarSeleccionada(destino) {
+        if (
+          ejercicioBloqueado ||
+          !tarjetaSeleccionada
+        ) {
+          return;
+        }
+
+        tarjetaSeleccionada.style.outline = "";
+        tarjetaSeleccionada.style.outlineOffset = "";
+
+        moverTarjeta(tarjetaSeleccionada, destino);
+
+        tarjetaSeleccionada = null;
+        ocultarAvisoSeleccion();
+      }
+
+      for (var n = 0; n < tarjetas.length; n++) {
+        tarjetas[n].addEventListener(
+          "click",
+          function(evento) {
+            if (
+              estadoTactil.movido ||
+              ejercicioBloqueado
+            ) {
+              return;
+            }
+
+            seleccionarTarjeta(evento.currentTarget);
+          }
+        );
+
+        tarjetas[n].addEventListener(
+          "keydown",
+          function(evento) {
+            if (
+              evento.key === "Enter" ||
+              evento.key === " "
+            ) {
+              evento.preventDefault();
+              seleccionarTarjeta(evento.currentTarget);
+            }
+          }
+        );
+      }
+
+      for (var p = 0; p < zonas.length; p++) {
+        zonas[p].setAttribute("tabindex", "0");
+        zonas[p].setAttribute("role", "button");
+
+        zonas[p].addEventListener(
+          "click",
+          function(evento) {
+            if (
+              evento.target.closest &&
+              evento.target.closest(".tarjeta-vav")
+            ) {
+              return;
+            }
+
+            colocarSeleccionada(evento.currentTarget);
+          }
+        );
+
+        zonas[p].addEventListener(
+          "keydown",
+          function(evento) {
+            if (
+              evento.key === "Enter" ||
+              evento.key === " "
+            ) {
+              evento.preventDefault();
+              colocarSeleccionada(evento.currentTarget);
+            }
+          }
+        );
+      }
+
+      /* =======================================================
+         EFECTOS DE LOS BOTONES
+         ======================================================= */
+
+      var botones = ejercicio.querySelectorAll("button");
+
+      for (var q = 0; q < botones.length; q++) {
+        botones[q].addEventListener(
+          "mouseenter",
+          function() {
+            if (!this.disabled) {
+              this.style.transform =
+                "translateY(-4px) scale(1.015)";
+
+              this.style.boxShadow =
+                "0 22px 38px rgba(8,47,73,.22)," +
+                "inset 0 1px 0 rgba(255,255,255,.25)";
+            }
+          }
+        );
+
+        botones[q].addEventListener(
+          "mouseleave",
+          function() {
+            this.style.transform =
+              "translateY(0) scale(1)";
+
+            if (this.id === "btnComprobarVav") {
+              this.style.boxShadow =
+                "0 18px 32px rgba(8,47,73,.22)," +
+                "inset 0 1px 0 rgba(255,255,255,.20)";
+            } else {
+              this.style.boxShadow =
+                "0 14px 28px rgba(8,47,73,.09)," +
+                "inset 0 1px 0 #ffffff";
+            }
+          }
+        );
+
+        botones[q].addEventListener(
+          "mousedown",
+          function() {
+            if (!this.disabled) {
+              this.style.transform =
+                "translateY(1px) scale(.985)";
+            }
+          }
+        );
+
+        botones[q].addEventListener(
+          "mouseup",
+          function() {
+            if (!this.disabled) {
+              this.style.transform =
+                "translateY(-4px) scale(1.015)";
+            }
+          }
+        );
+      }
+
+      /* =======================================================
+         FUNCIONES DISPONIBLES PARA LA PARTE 3B
+         ======================================================= */
+
+      window.ejercicioVavAPI = {
+        moverTarjeta: moverTarjeta,
+
+        actualizarMensajes: actualizarMensajesZonas,
+
+        limpiarZonasActivas: limpiarZonasActivas,
+
+        obtenerTarjetas: function() {
+          return ejercicio.querySelectorAll(".tarjeta-vav");
+        },
+
+        obtenerZonas: function() {
+          return ejercicio.querySelectorAll(
+            ".zona-clasificacion-vav"
+          );
+        },
+
+        obtenerContenedorInicial: function() {
+          return contenedorTarjetas;
+        },
+
+        bloquear: function() {
+          ejercicioBloqueado = true;
+
+          var tarjetasActuales =
+            ejercicio.querySelectorAll(".tarjeta-vav");
+
+          for (
+            var i = 0; i < tarjetasActuales.length; i++
+          ) {
+            tarjetasActuales[i].setAttribute(
+              "draggable",
+              "false"
+            );
+
+            tarjetasActuales[i].style.cursor =
+              "default";
+
+            tarjetasActuales[i].style.pointerEvents =
+              "none";
+          }
+
+          ocultarAvisoSeleccion();
+          limpiarZonasActivas();
+        },
+
+        desbloquear: function() {
+          ejercicioBloqueado = false;
+
+          var tarjetasActuales =
+            ejercicio.querySelectorAll(".tarjeta-vav");
+
+          for (
+            var i = 0; i < tarjetasActuales.length; i++
+          ) {
+            tarjetasActuales[i].setAttribute(
+              "draggable",
+              "true"
+            );
+
+            tarjetasActuales[i].style.cursor =
+              "grab";
+
+            tarjetasActuales[i].style.pointerEvents =
+              "auto";
+          }
+        },
+
+        estaBloqueado: function() {
+          return ejercicioBloqueado;
+        }
+      };
+
+      /* =======================================================
+         ESTADO INICIAL
+         ======================================================= */
+
+      actualizarMensajesZonas();
+
+    })();
+  </script>
+</p>
+<!-- La Parte 3B continúa aquí:
+     comprobación de respuestas,
+     tarjetas correctas e incorrectas,
+     contador de aciertos,
+     barra de progreso,
+     mensaje final,
+     devolución de respuestas incorrectas
+     y reinicio completo. --><!-- ======================================================= --><!-- EJERCICIO 2 · PARTE 3B                                  --><!-- VALIDACIÓN, RETROALIMENTACIÓN Y REINICIO                --><!-- Colocar inmediatamente después de la Parte 3A           --><!-- ======================================================= -->
+<p>
+  <script>
+    (function() {
+
+      if (!window.ejercicioVavAPI) return;
+
+      const api = window.ejercicioVavAPI;
+
+      const btnComprobar = document.getElementById("btnComprobarVav");
+      const btnReiniciar = document.getElementById("btnReiniciarVav");
+
+      const panelResultado = document.getElementById("panelResultadoVav");
+      const textoResultado = document.getElementById("textoResultadoVav");
+      const barraResultado = document.getElementById("barraResultadoVav");
+
+      const contenedorInicial = api.obtenerContenedorInicial();
+
+      const zonas = api.obtenerZonas();
+
+      const zonaConsonante = document.getElementById("zonaConsonanteVav");
+      const zonaVocal = document.getElementById("zonaVocalVav");
+
+      /*=========================================================
+      COLORES
+      =========================================================*/
+
+      const COLOR_CORRECTO = "#11a36a";
+      const FONDO_CORRECTO = "#ecfff6";
+
+      const COLOR_ERROR = "#d63c3c";
+      const FONDO_ERROR = "#fff0f0";
+
+      /*=========================================================
+      UTILIDADES
+      =========================================================*/
+
+      function obtenerCategoriaZona(zona) {
+
+        if (zona === zonaConsonante) {
+          return "consonante";
+        }
+
+        if (zona === zonaVocal) {
+          return "vocal";
+        }
+
+        return "sinClasificar";
+
+      }
+
+      function pintarCorrecta(tarjeta) {
+
+        tarjeta.style.background = FONDO_CORRECTO;
+        tarjeta.style.border = "2px solid " + COLOR_CORRECTO;
+        tarjeta.style.boxShadow =
+          "0 0 0 4px rgba(17,163,106,.15),0 18px 32px rgba(17,163,106,.18)";
+        tarjeta.style.transform = "scale(1.02)";
+
+      }
+
+      function pintarIncorrecta(tarjeta) {
+
+        tarjeta.style.background = FONDO_ERROR;
+        tarjeta.style.border = "2px solid " + COLOR_ERROR;
+        tarjeta.style.boxShadow =
+          "0 0 0 4px rgba(214,60,60,.12),0 18px 32px rgba(214,60,60,.16)";
+        tarjeta.style.transform = "scale(.98)";
+
+      }
+
+      function limpiarEstilo(tarjeta) {
+
+        tarjeta.style.background = "#ffffff";
+        tarjeta.style.border = "1px solid #d6e3ec";
+        tarjeta.style.boxShadow =
+          "0 14px 28px rgba(8,47,73,.09),0 4px 10px rgba(8,47,73,.04), inset 0 1px 0 #ffffff";
+        tarjeta.style.transform = "";
+
+      }
+
+      /*=========================================================
+      VALIDAR
+      =========================================================*/
+
+      btnComprobar.addEventListener("click", function() {
+
+        if (api.estaBloqueado()) return;
+
+        const tarjetas = api.obtenerTarjetas();
+
+        let aciertos = 0;
+
+        tarjetas.forEach(function(tarjeta) {
+
+          const correcta = tarjeta.dataset.respuesta;
+
+          const categoriaActual =
+            obtenerCategoriaZona(tarjeta.parentElement);
+
+          if (correcta === categoriaActual) {
+
+            pintarCorrecta(tarjeta);
+
+            aciertos++;
+
+          } else {
+
+            pintarIncorrecta(tarjeta);
+
+          }
+
+        });
+
+        api.bloquear();
+
+        panelResultado.style.display = "block";
+
+        const porcentaje = Math.round((aciertos / 8) * 100);
+
+        barraResultado.style.width = porcentaje + "%";
+
+        if (aciertos === 8) {
+
+          textoResultado.innerHTML =
+            "🎉 ¡Excelente! 8 de 8 respuestas correctas.";
+
+          panelResultado.style.background =
+            "linear-gradient(145deg,#ecfff6,#f8fffb)";
+
+        } else {
+
+          textoResultado.innerHTML =
+            aciertos +
+            " de 8 respuestas correctas";
+
+        }
+
+        /*==============================================
+        DEVOLVER LAS INCORRECTAS
+        ==============================================*/
+
+        setTimeout(function() {
+
+          tarjetas.forEach(function(tarjeta) {
+
+            const correcta = tarjeta.dataset.respuesta;
+
+            const categoriaActual =
+              obtenerCategoriaZona(tarjeta.parentElement);
+
+            if (correcta !== categoriaActual) {
+
+              limpiarEstilo(tarjeta);
+
+              api.moverTarjeta(
+                tarjeta,
+                contenedorInicial
+              );
+
+            }
+
+          });
+
+        }, 1700);
+
+      });
+
+      /*=========================================================
+      REINICIAR
+      =========================================================*/
+
+      btnReiniciar.addEventListener("click", function() {
+
+        const tarjetas = api.obtenerTarjetas();
+
+        tarjetas.forEach(function(tarjeta) {
+
+          limpiarEstilo(tarjeta);
+
+          api.moverTarjeta(
+            tarjeta,
+            contenedorInicial
+          );
+
+        });
+
+        api.desbloquear();
+
+        barraResultado.style.width = "0%";
+
+        textoResultado.innerHTML = "0 de 8 correctas";
+
+        panelResultado.style.display = "none";
+
+      });
+
+      /*=========================================================
+      EFECTOS EXTRA
+      =========================================================*/
+
+      document.addEventListener("vavTarjetaMovida", function(e) {
+
+        const tarjeta = e.detail.tarjeta;
+
+        tarjeta.animate([
+
+          {
+            transform: "scale(.94)"
+          },
+
+          {
+            transform: "scale(1.06)"
+          },
+
+          {
+            transform: "scale(1)"
+          }
+
+        ], {
+
+          duration: 250,
+
+          easing: "ease-out"
+
+        });
+
+      });
+
+      /*=========================================================
+      MENSAJE MOTIVACIONAL
+      =========================================================*/
+
+      const frases = [
+
+        "¡Muy bien! Sigue analizando la función de la letra ו.",
+
+        "Excelente trabajo. Observa con atención cada palabra.",
+
+        "Cada intento fortalece tu lectura del hebreo.",
+
+        "¡Continúa! Estás desarrollando una habilidad fundamental."
+
+      ];
+
+      let indice = 0;
+
+      const encabezado = document.querySelector(
+        "#contenedorTarjetasVav"
+      );
+
+      const aviso = document.createElement("div");
+
+      aviso.style.marginTop = "26px";
+      aviso.style.textAlign = "center";
+      aviso.style.fontSize = "17px";
+      aviso.style.color = "#526579";
+      aviso.style.fontWeight = "600";
+
+      aviso.innerHTML = frases[0];
+
+      encabezado.parentNode.appendChild(aviso);
+
+      setInterval(function() {
+
+        indice++;
+
+        if (indice >= frases.length) {
+
+          indice = 0;
+
+        }
+
+        aviso.animate(
+
+          [
+
+            {
+              opacity: .1
+            },
+
+            {
+              opacity: 1
+            }
+
+          ],
+
+          {
+
+            duration: 450
+
+          }
+
+        );
+
+        aviso.innerHTML = frases[indice];
+
+      }, 5500);
+
+      /*=========================================================
+      ANIMACIÓN DEL PANEL DE RESULTADOS
+      =========================================================*/
+
+      const observer = new MutationObserver(function() {
+
+        if (panelResultado.style.display === "block") {
+
+          panelResultado.animate(
+
+            [
+
+              {
+                opacity: 0,
+                transform: "translateY(25px)"
+              },
+
+              {
+                opacity: 1,
+                transform: "translateY(0)"
+              }
+
+            ],
+
+            {
+
+              duration: 450,
+              easing: "ease"
+
+            });
+
+        }
+
+      });
+
+      observer.observe(panelResultado, {
+
+        attributes: true,
+
+        attributeFilter: ["style"]
+
+      });
+
+    })();
+  </script>
+</p>
